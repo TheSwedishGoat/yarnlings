@@ -1,13 +1,13 @@
 # repositoryname
-additional content to extend [Aurora](https://aurorabuilder.com/), by yourname
+additional content to extend [Aurora](https://aurorabuilder.com/), by josh
 
-index url: https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname.index
+index url: https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-josh.index
 
 ---
 
 instructions to get started with the repository:
 
-- replace ***yourname*** in the index filename, the user-yourname folder, this readme, and all the urls in each file
+- replace ***yourname*** in the index filename, the user-josh folder, this readme, and all the urls in each file
 - replace ***yourgithubaccount*** in all the urls in each file with the name of your github account
 - replace ***repositoryname*** in all the urls in each file with the name of this repository
 
