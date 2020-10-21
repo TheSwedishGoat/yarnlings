@@ -69,8 +69,8 @@
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_CUTESY" />
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BRAVE" />
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_YARNLING_NIMBLENESS" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_THREADED">
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_COSY">
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_THREADED" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_COSY" />
     </rules>
   </element>
 
