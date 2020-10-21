@@ -1,12 +1,97 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>File 1</name>
-		<update version="1.0.0">
-			<file name="file1.xml" url="https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname/file1.xml" />
+		<name>Yarnling</name>
+		<description></description>
+		<author>ALYST</author>
+		<update version="0.1.6">
+			<file name="Yarnling.xml" url=""/>
 		</update>
 	</info>
-	
-	<!-- place your elements here -->
-	
+
+  <element name="Yarnling" type="Race" source="Homebrew" id="ID_RACE_YARNLING">
+    <description>
+      <p class="flavor">Living in peace is the goal of most Yarnlings: a place far away from anything that may intend to cause them harm as a species; a cool but dry place to reside; a cosy atmosphere and of course knitting needles. Though some yarnlings live out their days in bliss, others travel from the caves in which they dwell, in vein hope of reversing the curse placed upon them so many generations ago. But even these wanderers appreciate a cosy fire, companionship, and home, though home might be lacking in the spindle department.</p>
+
+      <h4>SHORT AND SWEET(?)</h4>
+      <p class="indent">What is left of the yarnlings survive in a world full of larger creatures by avoiding notice or, if necessary they will engage in vicious offense. Standing just under 1 foot tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife. They are inclined to be rather thin, weighing between 10 and 25 pounds, with those of a higher sitch count weighing closer to 30.</p>
+      <p class="indent">Yarnlings’ vary in colour and material. They are commonly red, blue, green, white or brown, or in rarer cases colours like purple or orange. Their eyes ressemble, black, sewn-on buttons. Because they are. Their material determines their place in their strange caste system, with Silken being the highest and in descending order: Quilted, Cotton, Crochet and the lowest being Knitten.</p>
+      <p class="indent">Yarnling scoietal standing relies on their material, but no matter the thread count, all professions are available to all, no questions asked. Quilted will gladly govern along with Crochet as long as they see them as worthy. The exception to this rule is the Knitten, who are made exculsively to do grunt work, or battle work.</p>
+
+      <h4>RESOURCEFUL AND COSY</h4>
+      <p>Yarnlings are resourceful people. Thier knowledge of their materials and the patterns they are made from gifts them the inane ability to repair themselves using a needle and thread, or in the case of a Crochet or Knitten, a needle and Yarn.</p>
+      <p class="indent">Yarnlings almost all live in one large cavern as a single tribe, with the only exceptions being those who chose (or are forced) outside to defend, fight or scour for building resources. Not needing to eat because of the lack of internal organs allows the species to dedicate their lives to the search for comfort. This quality is mentally ingrained into each and every Yarnling, no matter their background or profession.</p>
+
+      <h4>RESENTMENT</h4>
+      <p>Yarnlings harbour a general resentment or even hatred to magic users because of their curse. This means for those who leave, interactions with magic users are generally filled with distrust.</p>
+
+      <h4>YARNLING NAMES</h4>
+      <p>A Yarnling have no given name, but only family name, and possibly a nickname. Family names are often nicknames that stuck so tenaciously they have been passed down through the generations.</p>
+      <p>
+        <span class="feature">Male Nickname examples:</span>Fibre, Threadore, Knittle, Knittly, Needles, Yarnold<br/>
+        <span class="feature">Female Nickname examples:</span>Knittlet, Sewphie, Croch, Sewnit<br/>
+        <span class="feature">Family Name examples:</span>Stickcaught, Crimsonthread, Spindle, Quilton<br/>
+      </p>
+
+      <h4>YARNLING TRAITS</h4>
+      <p>Your Yarnling character has a number of traits in common with all other Yarnlings.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 3.<br/>
+        <span class="feature">Ability Score Decrease.</span>Your Strength score decreases by 2.<br/>
+        <span class="feature">Age.</span>No Yarnlings can be born. All existing Yarnlings are approximately 3 centuries old.<br/>
+        <span class="feature">Alignment.</span>Most halflings are Chaotic good. As a rule, they will do whatever is necessary to continue the comfortable existence of their species, no matter how vile or gruesome.<br/>
+        <span class="feature">Size.</span>Halflings average about 11 inches tall and weigh about 18 pounds. Your size is Small.<br/>
+        <span class="feature">Speed.</span>Your base walking speed is 25 feet.<br/>
+        <span class="feature">Cutesy.</span>If you have not engaged in conflict, you have advantage on all Charisma rolls.<br/>
+        <span class="feature">Brave.</span>You have advantage on saving throws against being frightened.<br/>
+        <span class="feature">Yarnling Nimbleness.</span>You can move through the space of any creature that is of a size larger than yours.<br/>
+        <span class="feature">Languages.</span>You can speak, read, and write Common and Yarnling. The Yarnling language isn't secret, however Yarnlings will not speak or write it in the presence of another race.<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Fibre, Threadore, Knittle, Knittly, Needles, Yarnold</set>
+      <set name="names" type="female">Knittlet, Sewphie, Croch, Sewnit</set>
+      <set name="names" type="family">Stickcaught, Crimsonthread, Spindle, Quilton</set>
+      <set name="names-format">{{name}} {{family}}</set>
+      <set name="height" modifier="2d4">10"</set>
+      <set name="weight" modifier="1d4">18 lb.</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="3"/>
+      <stat name="strength" value="-2"/>
+      <stat name="innate speed" value="25" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_SMALL" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_YARNLING" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_CUTESY" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BRAVE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_YARNLING_NIMBLENESS" />
+    </rules>
+  </element>
+
+  <element name="Cutesy" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_CUTESY">
+    <description>
+      <p>Roll with advantage on all Charisma checks or saving throw against an enemy/NPC you have not yet attacked.</p>
+    </description>
+    <sheet>
+      <description>Roll with advantage on all Charisma checks or saving throw against an enemy/NPC you have not yet attacked.</description>
+    </sheet>
+  </element>
+  <element name="Brave" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BRAVE">
+    <description>
+      <p>You have advantage on saving throws against being frightened.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on saving throws against being frightened.</description>
+    </sheet>
+  </element>
+  <element name="Yarnling Nimbleness" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_YARNLING_NIMBLENESS">
+    <description>
+      <p>You can move through the space of any creature that is of a size larger than yours.</p>
+    </description>
+    <sheet>
+      <description>You can move through the space of any creature that is of a size larger than yours.</description>
+    </sheet>
+  </element>
 </elements>
