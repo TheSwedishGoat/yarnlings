@@ -4,8 +4,8 @@
 		<name>Yarnling</name>
 		<description></description>
 		<author>ALYST</author>
-		<update version="0.1.6">
-			<file name="yarnling.xml" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-yourname/yarnlings.xml"/>
+		<update version="1.0.2">
+			<file name="Yarnling.xml" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-yourname/yarnlings.xml"/>
 		</update>
 	</info>
 
@@ -28,9 +28,9 @@
       <h4>YARNLING NAMES</h4>
       <p>A Yarnling have no given name, but only family name, and possibly a nickname. Family names are often nicknames that stuck so tenaciously they have been passed down through the generations.</p>
       <p>
-        <span class="feature">Male Nickname examples:</span>Fibre, Threadore, Knittle, Knittly, Needles, Yarnold<br/>
-        <span class="feature">Female Nickname examples:</span>Knittlet, Sewphie, Croch, Sewnit<br/>
-        <span class="feature">Family Name examples:</span>Stickcaught, Crimsonthread, Spindle, Quilton<br/>
+        <span class="feature">Male Nicknames:</span>Fibre, Threadore, Knittle, Knittly, Needles, Yarnold<br/>
+        <span class="feature">Female Nicknames:</span>Knittlet, Sewphie, Croch, Sewnit<br/>
+        <span class="feature">Family Names:</span>Stickcaught, Crimsonthread, Spindle, Quilton<br/>
       </p>
 
       <h4>YARNLING TRAITS</h4>
@@ -46,6 +46,8 @@
         <span class="feature">Brave.</span>You have advantage on saving throws against being frightened.<br/>
         <span class="feature">Yarnling Nimbleness.</span>You can move through the space of any creature that is of a size larger than yours.<br/>
         <span class="feature">Languages.</span>You can speak, read, and write Common and Yarnling. The Yarnling language isn't secret, however Yarnlings will not speak or write it in the presence of another race.<br/>
+        <span class="feature">Threaded.</span>Having loose threads can mean bad things for a Yarnling. You are vunerable to slashing damage, but resistant to bludgeoning damage.<br/> 
+        <span class="feature">Cosy.</span>You are vunerable to fire damage, but immune to cold damage.<br/>
       </p>
     </description>
     <sheet display="false" />
@@ -67,6 +69,8 @@
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_CUTESY" />
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BRAVE" />
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_YARNLING_NIMBLENESS" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_THREADED">
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_COSY">
     </rules>
   </element>
 
@@ -92,6 +96,22 @@
     </description>
     <sheet>
       <description>You can move through the space of any creature that is of a size larger than yours.</description>
+    </sheet>
+  </element>
+  <element name="Threaded" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_THREADED">
+    <description>
+      <p>You are vunerable to slashing damage and resistant to bludgeoning damage.</p>
+    </description>
+    <sheet>
+      <description>You are vunerable to slashing damage and resistant to bludgeoning damage.</description>
+    </sheet>
+  </element>
+  <element name="Cosy" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_COSY">
+    <description>
+      <p>You are vunerable to fire damage and immune to cold damage.</p>
+    </description>
+    <sheet>
+      <description>You are vunerable to fire damage and immune to cold damage.</description>
     </sheet>
   </element>
 </elements>
