@@ -5,7 +5,7 @@
 		<description></description>
 		<author>ALYST</author>
 		<update version="0.1.6">
-			<file name="Yarnling.xml" url=""/>
+			<file name="Yarnling.xml" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-yourname/yarnlings.xml"/>
 		</update>
 	</info>
 
