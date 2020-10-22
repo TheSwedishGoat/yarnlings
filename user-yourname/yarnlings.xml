@@ -4,29 +4,35 @@
 		<name>Yarnling</name>
 		<description></description>
 		<author>ALYST</author>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="Yarnling.xml" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-yourname/yarnlings.xml"/>
 		</update>
 	</info>
 
   <element name="Yarnling" type="Race" source="Homebrew" id="ID_RACE_YARNLING">
     <description>
-      <p class="flavor">Living in peace is the goal of most Yarnlings: a place far away from anything that may intend to cause them harm as a species; a cool but dry place to reside; a cosy atmosphere and of course knitting needles. Though some yarnlings live out their days in bliss, others travel from the caves in which they dwell, in vein hope of reversing the curse placed upon them so many generations ago. But even these wanderers appreciate a cosy fire, companionship, and home, though home might be lacking in the spindle department.</p>
+      <p class="flavor">Living in peace is the goal of most Yarnlings: a place far away from anything that may intend to cause them harm as a species; a cool but dry place to reside; a cosy atmosphere and of course knitting needles. Though some yarnlings live out their days in bliss, others travel from the cave in which they dwell, in vein hope of reversing the curse placed upon them so many centuries ago. But even these wanderers appreciate a cosy fire, companionship, and home, though home might be lacking in the spindle department.</p>
+
+      <h4>A FIBROUS CURSE</h4>
+      <p class="indent">Yarnlings were originally a group of a few hundred Pixies, who upon angering a sorceror were cursed with an experimental magic she was developing to create tailoring material. The group of Pixies was entirely transformed into Yarnlings, loosing their wings and most of their facial features. Many still keep their wings with them in memory of their history.</p>
+      <p class="indent">Yarnlings are akin to constructs, not needing to eat or breathe, but still requiring rest. Many Yarnlings view this more as a blessing than a curse, with very few actively seeking for atonement. With many Yarnlings looking similar or even exactly the same as one-another, they use clothing an accessories to identify themselves, making tailoring a valuable trait in their society.</p>    
 
       <h4>SHORT AND SWEET(?)</h4>
       <p class="indent">What is left of the yarnlings survive in a world full of larger creatures by avoiding notice or, if necessary they will engage in vicious offense. Standing just under 1 foot tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife. They are inclined to be rather thin, weighing between 10 and 25 pounds, with those of a higher sitch count weighing closer to 30.</p>
-      <p class="indent">Yarnlings’ vary in colour and material. They are commonly red, blue, green, white or brown, or in rarer cases colours like purple or orange. Their eyes ressemble, black, sewn-on buttons. Because they are. Their material determines their place in their strange caste system, with Silken being the highest and in descending order: Quilted, Cotton, Crochet and the lowest being Knitten.</p>
+      
+      <h4>APPEARANCE AND SOCIETY</h4>
+      <p class="indent">Yarnlings’ vary in colour and material. They are commonly red, blue, green, white or brown, or in rarer cases colours like purple or orange. Their eyes ressemble, black, sewn-on buttons. Because they are. Their material determines their place in their strange caste system, with Silken being the highest and in descending order: Quilted, Cotton, Crochet and the lowest being Knitten. When making your Yarnling take into account their clothing as this is what sets them apart from similar looking Yarnlings.</p>
       <p class="indent">Yarnling scoietal standing relies on their material, but no matter the thread count, all professions are available to all, no questions asked. Quilted will gladly govern along with Crochet as long as they see them as worthy. The exception to this rule is the Knitten, who are made exculsively to do grunt work, or battle work.</p>
 
       <h4>RESOURCEFUL AND COSY</h4>
-      <p>Yarnlings are resourceful people. Thier knowledge of their materials and the patterns they are made from gifts them the inane ability to repair themselves using a needle and thread, or in the case of a Crochet or Knitten, a needle and Yarn.</p>
+      <p class="indent">Yarnlings are resourceful people. Thier knowledge of their materials and the patterns they are made from gifts them the inane ability to repair themselves using a needle and thread, or in the case of a Crochet or Knitten, a needle and Yarn.</p>
       <p class="indent">Yarnlings almost all live in one large cavern as a single tribe, with the only exceptions being those who chose (or are forced) outside to defend, fight or scour for building resources. Not needing to eat because of the lack of internal organs allows the species to dedicate their lives to the search for comfort. This quality is mentally ingrained into each and every Yarnling, no matter their background or profession.</p>
 
       <h4>RESENTMENT</h4>
-      <p>Yarnlings harbour a general resentment or even hatred to magic users because of their curse. This means for those who leave, interactions with magic users are generally filled with distrust.</p>
+      <p class="indent">Yarnlings harbour a general resentment or even hatred to magic users because of their curse, regardless of their view on its effects. This means for those who leave, the rare interactions with magic users are filled with distrust.</p>
 
       <h4>YARNLING NAMES</h4>
-      <p>A Yarnling have no given name, but only family name, and possibly a nickname. Family names are often nicknames that stuck so tenaciously they have been passed down through the generations.</p>
+      <p class="indent">A Yarnling have no given name, but only family name, and possibly a nickname. Family names are often nicknames that stuck so tenaciously they have been passed down through the generations.</p>
       <p>
         <span class="feature">Male Nicknames:</span>Fibre, Threadore, Knittle, Knittly, Needles, Yarnold<br/>
         <span class="feature">Female Nicknames:</span>Knittlet, Sewphie, Croch, Sewnit<br/>
@@ -48,6 +54,11 @@
         <span class="feature">Languages.</span>You can speak, read, and write Common and Yarnling. The Yarnling language isn't secret, however Yarnlings will not speak or write it in the presence of another race.<br/>
         <span class="feature">Threaded.</span>Having loose threads can mean bad things for a Yarnling. You are vunerable to slashing damage, but resistant to bludgeoning damage.<br/> 
         <span class="feature">Cosy.</span>You are vunerable to fire damage, but immune to cold damage.<br/>
+        <span class="feature">Material Being.</span>You do not need to eat or breathe. You are immune to disease. If you have Weaver's tools you can heal yourself in different manners.</br>
+        <ul>
+          <li>Repurpose cloth will use spare material to heal you by 1d6 + your proficiency modifier.</li>
+          <li>Mend a hole in a piece of cloth will heal you by 2d4 and not use any material.</li>
+        </ul>
       </p>
     </description>
     <sheet display="false" />
@@ -71,6 +82,7 @@
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_YARNLING_NIMBLENESS" />
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_THREADED" />
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_COSY" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MATERIAL_BEING" />
     </rules>
   </element>
 
@@ -112,6 +124,20 @@
     </description>
     <sheet>
       <description>You are vunerable to fire damage and immune to cold damage.</description>
+    </sheet>
+  </element>
+  <element name="Material Being" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_MATERIAL_BEING">
+    <description>
+      <p>You do not need to eat or breathe. You are immune to disease. If you have Weaver's tools you can heal yourself in different manners.</p>
+    </description>
+    <sheet>
+      <description>
+      <p>You do not need to eat or breathe. You are immune to disease. If you have Weaver's tools you can heal yourself in different manners.</p>
+      <ul>
+        <li>Repurpose cloth will use spare material to heal you by 1d6 + your proficiency modifier.</li>
+        <li>Mend a hole in a piece of cloth will heal you by 2d4 and not use any material.</li>
+      </ul>
+      </description>
     </sheet>
   </element>
 </elements>
