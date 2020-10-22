@@ -54,7 +54,7 @@
         <span class="feature">Languages.</span>You can speak, read, and write Common and Yarnling. The Yarnling language isn't secret, however Yarnlings will not speak or write it in the presence of another race.<br/>
         <span class="feature">Threaded.</span>Having loose threads can mean bad things for a Yarnling. You are vunerable to slashing damage, but resistant to bludgeoning damage.<br/> 
         <span class="feature">Cosy.</span>You are vunerable to fire damage, but immune to cold damage.<br/>
-        <span class="feature">Material Being.</span>You do not need to eat or breathe. You are immune to disease. If you have Weaver's tools you can heal yourself in different manners.</br>
+        <span class="feature">Material Being.</span>You do not need to eat or breathe. You are immune to disease. If you have Weaver's tools you can heal yourself in different manners.<br/>
           <ul>
             <li>Repurpose cloth will use spare material to heal you by 1d6 + your proficiency modifier.</li>
             <li>Mend a hole in a piece of cloth will heal you by 2d4 and not use any material.</li>
