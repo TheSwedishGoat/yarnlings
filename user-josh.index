@@ -8,5 +8,6 @@
 	</info>
 	<files>
 		<file name="yarnlings.xml" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-yourname/yarnlings.xml" />
+		<file name="language.xml" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-yourname/language.xml" />
 	</files>
 </index>
