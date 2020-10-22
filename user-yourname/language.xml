@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<update version="0.0.1">
+			<file name="languages.xml" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-yourname/language.xml" />
+		</update>
+	</info>
+
+	<element name="Yarnling" type="Language" source="Homebrew" id="ID_LANGUAGE_YARNLING">
+		<supports>Exotic</supports>
+		<description>
+			<p>Spoken exclusively by Yarnlings.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Yarnlings</set>
+			<set name="script">Yarnling</set>
+		</setters>
+	</element>	
+</elements>
