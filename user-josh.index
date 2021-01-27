@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Your Content</name>
-		<update version="1.0.4">
+		<update version="1.0.6">
 			<file name="user-josh.index" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-josh.index" />
 		</update>
 	</info>
