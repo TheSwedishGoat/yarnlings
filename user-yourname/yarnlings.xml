@@ -4,7 +4,7 @@
 		<name>Yarnling</name>
 		<description></description>
 		<author>ALYST</author>
-		<update version="1.0.5">
+		<update version="1.0.6">
 			<file name="yarnlings.xml" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-yourname/yarnlings.xml"/>
 		</update>
 	</info>
@@ -96,6 +96,7 @@
       <description>Roll with advantage on all Charisma checks or saving throw against an enemy/NPC you have not yet attacked.</description>
     </sheet>
   </element>
+
   <element name="Brave" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BRAVE">
     <description>
       <p>You have advantage on saving throws against being frightened.</p>
@@ -104,6 +105,7 @@
       <description>You have advantage on saving throws against being frightened.</description>
     </sheet>
   </element>
+
   <element name="Yarnling Nimbleness" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_YARNLING_NIMBLENESS">
     <description>
       <p>You can move through the space of any creature that is of a size larger than yours.</p>
@@ -112,6 +114,7 @@
       <description>You can move through the space of any creature that is of a size larger than yours.</description>
     </sheet>
   </element>
+
   <element name="Threaded" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_THREADED">
     <description>
       <p>You are vunerable to slashing damage and resistant to bludgeoning damage.</p>
@@ -120,6 +123,7 @@
       <description>You are vunerable to slashing damage and resistant to bludgeoning damage.</description>
     </sheet>
   </element>
+
   <element name="Cosy" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_COSY">
     <description>
       <p>You are vunerable to fire damage and immune to cold damage.</p>
@@ -128,19 +132,18 @@
       <description>You are vunerable to fire damage and immune to cold damage.</description>
     </sheet>
   </element>
+
   <element name="Material Being" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_MATERIAL_BEING">
     <description>
       <p>You do not need to eat or breathe. You are immune to disease. If you have Weaver's tools you can heal yourself in different manners.</p>
-      
     </description>
     <sheet>
       <description>
       <p>You do not need to eat or breathe. You are immune to disease. If you have Weaver's tools you can heal yourself in different manners.</p>
       <ul>
         <li>Repurpose cloth will use spare material to heal you by 1d6 + your proficiency modifier.</li>
-        <li class="indent">This increases to 2d6 at 4th level, and again to 4d6 at 10th level</li>
         <li>Mend a hole in a piece of cloth will heal you by 2d4 and not use any material.</li>
-        <li class="indent">This increases to 3d4 at 4th level, and again to 5d4 at 10th level</li>
+        <li>These increase to 2d6 and 3d4 respectively at 4th level, and to 4d6 and 5d4 respectively at 10th level.</li>
       </ul>
       </description>
     </sheet>
