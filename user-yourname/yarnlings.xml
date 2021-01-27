@@ -1,10 +1,10 @@
-<?xml version="1.1" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Yarnling</name>
 		<description></description>
 		<author>ALYST</author>
-		<update version="1.0.3">
+		<update version="1.0.4">
 			<file name="Yarnling.xml" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-yourname/yarnlings.xml"/>
 		</update>
 	</info>
