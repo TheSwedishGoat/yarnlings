@@ -4,8 +4,8 @@
 		<name>Yarnling</name>
 		<description></description>
 		<author>ALYST</author>
-		<update version="1.0.4">
-			<file name="Yarnling.xml" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-yourname/yarnlings.xml"/>
+		<update version="1.0.5">
+			<file name="yarnlings.xml" url="https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-yourname/yarnlings.xml"/>
 		</update>
 	</info>
 
