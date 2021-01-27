@@ -1,7 +1,7 @@
 # repositoryname
 additional content to extend [Aurora](https://aurorabuilder.com/), by josh
 
-index url: https://raw.githubusercontent.com/TheSwedishGoat/blob/master/user-josh.index
+index url: https://raw.githubusercontent.com/TheSwedishGoat/yarnlings/master/user-josh.index
 
 ---
 
